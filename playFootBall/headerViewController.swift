@@ -35,6 +35,7 @@ class headerViewController: UIViewController {
     }
     
     func converUIViewToCircle() {
+        
         leftHeaderView.layer.cornerRadius = leftHeaderView.frame.size.width/2.0
         leftHeaderView.clipsToBounds = true
         centerHeaderView.layer.cornerRadius = centerHeaderView.frame.size.width/2.0
